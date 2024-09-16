@@ -1,0 +1,1167 @@
+{
+    "dup_type": "lite",
+    "created": "2024-09-16 13:22:45",
+    "version_dup": "1.5.10.2",
+    "version_wp": "6.6.2",
+    "version_db": "10.3.39",
+    "version_php": "8.3.8",
+    "version_os": "Linux",
+    "blogname": "Techlio PVT",
+    "exportOnlyDB": 0,
+    "secure_on": 0,
+    "secure_pass": "$2a$08$E5JT21NQ2MrGsOxem2z3puGrlFlcoyhVkv0pczdqO6nmD8q2PAj.6",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "wp0k_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "techlio.co",
+            "path": "\/",
+            "blogname": "Techlio PVT",
+            "blog_prefix": "wp0k_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "1",
+                    "user_login": "admin",
+                    "id": "1"
+                }
+            ],
+            "fullHomeUrl": "https:\/\/techlio.co",
+            "fullSiteUrl": "https:\/\/techlio.co",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/home\/shahryarbaig\/techlio.co\/wp-content\/uploads",
+            "fullUploadSafePath": "\/home\/shahryarbaig\/techlio.co\/wp-content\/uploads",
+            "fullUploadUrl": "https:\/\/techlio.co\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "license_type": 0,
+    "dbInfo": {
+        "buildMode": "MYSQLDUMP",
+        "charSetList": [
+            "utf8mb4"
+        ],
+        "collationList": [
+            "utf8mb4_general_ci",
+            "utf8mb4_unicode_520_ci",
+            "utf8mb4_unicode_ci"
+        ],
+        "engineList": [
+            "MyISAM"
+        ],
+        "isTablesUpperCase": 0,
+        "isNameUpperCase": 0,
+        "name": "shahryarbaig_wp653",
+        "tablesBaseCount": 77,
+        "tablesFinalCount": 77,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 8485,
+        "tablesSizeOnDisk": 23514694,
+        "tablesList": {
+            "wp0k_actionscheduler_actions": {
+                "inaccurateRows": 4,
+                "insertedRows": 4,
+                "size": 18728
+            },
+            "wp0k_actionscheduler_claims": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 3086
+            },
+            "wp0k_actionscheduler_groups": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 9276
+            },
+            "wp0k_actionscheduler_logs": {
+                "inaccurateRows": 8,
+                "insertedRows": 8,
+                "size": 4560
+            },
+            "wp0k_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 4096
+            },
+            "wp0k_comments": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 7496
+            },
+            "wp0k_duplicator_packages": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 9068
+            },
+            "wp0k_e_events": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 3260
+            },
+            "wp0k_layerslider": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 26052
+            },
+            "wp0k_layerslider_drafts": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 27060
+            },
+            "wp0k_layerslider_revisions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_nextend2_image_storage": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 3496
+            },
+            "wp0k_nextend2_section_storage": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 9348
+            },
+            "wp0k_nextend2_smartslider3_generators": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_nextend2_smartslider3_sliders": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 23220
+            },
+            "wp0k_nextend2_smartslider3_sliders_xref": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_nextend2_smartslider3_slides": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 39960
+            },
+            "wp0k_options": {
+                "inaccurateRows": 397,
+                "insertedRows": 397,
+                "size": 2625752
+            },
+            "wp0k_postmeta": {
+                "inaccurateRows": 952,
+                "insertedRows": 952,
+                "size": 293420
+            },
+            "wp0k_posts": {
+                "inaccurateRows": 1212,
+                "insertedRows": 1212,
+                "size": 19168488
+            },
+            "wp0k_revslider_css": {
+                "inaccurateRows": 109,
+                "insertedRows": 109,
+                "size": 103844
+            },
+            "wp0k_revslider_css_bkp": {
+                "inaccurateRows": 47,
+                "insertedRows": 47,
+                "size": 19064
+            },
+            "wp0k_revslider_layer_animations": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 4600
+            },
+            "wp0k_revslider_layer_animations_bkp": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_revslider_navigations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_revslider_navigations_bkp": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_revslider_sliders": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 11668
+            },
+            "wp0k_revslider_sliders_bkp": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_revslider_slides": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 54636
+            },
+            "wp0k_revslider_slides_bkp": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_revslider_static_slides": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 3108
+            },
+            "wp0k_revslider_static_slides_bkp": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_strong_views": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_termmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 4096
+            },
+            "wp0k_terms": {
+                "inaccurateRows": 22,
+                "insertedRows": 22,
+                "size": 14040
+            },
+            "wp0k_term_relationships": {
+                "inaccurateRows": 268,
+                "insertedRows": 268,
+                "size": 19964
+            },
+            "wp0k_term_taxonomy": {
+                "inaccurateRows": 22,
+                "insertedRows": 22,
+                "size": 4988
+            },
+            "wp0k_usermeta": {
+                "inaccurateRows": 42,
+                "insertedRows": 42,
+                "size": 14572
+            },
+            "wp0k_users": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 8308
+            },
+            "wp0k_wc_admin_notes": {
+                "inaccurateRows": 55,
+                "insertedRows": 55,
+                "size": 26012
+            },
+            "wp0k_wc_admin_note_actions": {
+                "inaccurateRows": 82,
+                "insertedRows": 82,
+                "size": 21248
+            },
+            "wp0k_wc_category_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_wc_customer_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 2048
+            },
+            "wp0k_wc_download_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_wc_orders": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 4096
+            },
+            "wp0k_wc_orders_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 4096
+            },
+            "wp0k_wc_order_addresses": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 4096
+            },
+            "wp0k_wc_order_coupon_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_wc_order_operational_data": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 2048
+            },
+            "wp0k_wc_order_product_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_wc_order_stats": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 4096
+            },
+            "wp0k_wc_order_tax_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_wc_product_attributes_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_wc_product_download_directories": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 9380
+            },
+            "wp0k_wc_product_meta_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 2048
+            },
+            "wp0k_wc_rate_limits": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 4096
+            },
+            "wp0k_wc_reserved_stock": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_wc_tax_rate_classes": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 9288
+            },
+            "wp0k_wc_webhooks": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_woocommerce_api_keys": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 2048
+            },
+            "wp0k_woocommerce_attribute_taxonomies": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_woocommerce_downloadable_product_permissions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_woocommerce_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_woocommerce_order_itemmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_woocommerce_order_items": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_woocommerce_payment_tokenmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_woocommerce_payment_tokens": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_woocommerce_sessions": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 4480
+            },
+            "wp0k_woocommerce_shipping_zones": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_woocommerce_shipping_zone_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_woocommerce_shipping_zone_methods": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_woocommerce_tax_rates": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_woocommerce_tax_rate_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_wpfm_backup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp0k_wsal_metadata": {
+                "inaccurateRows": 3285,
+                "insertedRows": 3285,
+                "size": 297040
+            },
+            "wp0k_wsal_occurrences": {
+                "inaccurateRows": 1957,
+                "insertedRows": 1957,
+                "size": 546552
+            }
+        },
+        "lowerCaseTableNames": 0,
+        "dbEngine": "MariaDB",
+        "version": "10.3.39",
+        "versionComment": "MariaDB Server",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 1,
+        "packageName": "20240916_techliopvt",
+        "packageHash": "da1bf45-16132245",
+        "secondaryHash": "6a89b12-16132245"
+    },
+    "fileInfo": {
+        "dirCount": 8278,
+        "fileCount": 55257,
+        "size": 145285015
+    },
+    "wpInfo": {
+        "version": "6.6.2",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/home\/shahryarbaig\/techlio.co",
+        "targetPaths": [
+            "\/home\/shahryarbaig\/techlio.co"
+        ],
+        "adminUsers": [
+            {
+                "ID": "1",
+                "user_login": "admin",
+                "id": "1"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/home\/shahryarbaig\/techlio.co\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8mb4",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "ez0fxcoebg25ahwigjzwevsea7hmhabz1pgvrj11bli4cjlqkek1u3jf2jepvqza",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "irejnnbul7s1rnteentnh2niglfv2z8yfnfutljhlzht8ucieag4ozhdigihkkfw",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "higkxyywnrcihvnbkuh8jdpfmxpvo5pjk0zf55hlbyvv4wq0pprpsc8xatrhn0qp",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "zqos4hcivzswc74ikcerq0mrfgbosruo7o8avnayep56xabimnfusubcn0xqxk3r",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "hy5ltzm0id8f5xi51nrkzneirkjptlhhwppf1qasityhks0dxu6uf7gavdmwi2za",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "pii0j8v0f02mexk8gr02hehfmh4rxbg4zlb4acl5olmnl9fwlzzoxdovhmdcusar",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "n4trgofgjl5mnycvwg4btzwikiosywwaofqu83j1fmquqvcl8oa3v8ettqkg4a26",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "zdjpso5bgyvtjhfj0uawvrgdbafmhzbc28uvlbfmswu7x2nepkw2hzis8nbiywva",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/home\/shahryarbaig\/techlio.co\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "https:\/\/techlio.co\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/home\/shahryarbaig\/techlio.co\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "https:\/\/techlio.co\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": "",
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "256M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/home\/shahryarbaig\/techlio.co\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "FS_CHMOD_DIR": {
+                    "value": 493,
+                    "inWpConfig": false
+                },
+                "FS_CHMOD_FILE": {
+                    "value": 420,
+                    "inWpConfig": false
+                },
+                "FS_METHOD": {
+                    "value": "direct",
+                    "inWpConfig": false
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/home\/shahryarbaig\/techlio.co\/wp-content\/themes\/betheme",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/home\/shahryarbaig\/techlio.co\/wp-content\/themes\/betheme-child",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/home\/shahryarbaig\/techlio.co\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "https:\/\/techlio.co\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "https:\/\/techlio.co",
+                "homeUrl": "https:\/\/techlio.co",
+                "loginUrl": "https:\/\/techlio.co\/wp-login.php",
+                "contentUrl": "https:\/\/techlio.co\/wp-content",
+                "uploadBaseUrl": "https:\/\/techlio.co\/wp-content\/uploads",
+                "pluginsUrl": "https:\/\/techlio.co\/wp-content\/plugins",
+                "mupluginsUrl": "https:\/\/techlio.co\/wp-content\/mu-plugins",
+                "themesUrl": "https:\/\/techlio.co\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/home\/shahryarbaig\/techlio.co",
+                    "abs": "\/home\/shahryarbaig\/techlio.co",
+                    "wpconfig": "\/home\/shahryarbaig\/techlio.co",
+                    "wpcontent": "\/home\/shahryarbaig\/techlio.co\/wp-content",
+                    "uploads": "\/home\/shahryarbaig\/techlio.co\/wp-content\/uploads",
+                    "plugins": "\/home\/shahryarbaig\/techlio.co\/wp-content\/plugins",
+                    "muplugins": "\/home\/shahryarbaig\/techlio.co\/wp-content\/mu-plugins",
+                    "themes": "\/home\/shahryarbaig\/techlio.co\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/home\/shahryarbaig\/techlio.co",
+                    "abs": "\/home\/shahryarbaig\/techlio.co",
+                    "wpconfig": "\/home\/shahryarbaig\/techlio.co",
+                    "wpcontent": "\/home\/shahryarbaig\/techlio.co\/wp-content",
+                    "uploads": "\/home\/shahryarbaig\/techlio.co\/wp-content\/uploads",
+                    "plugins": "\/home\/shahryarbaig\/techlio.co\/wp-content\/plugins",
+                    "muplugins": "\/home\/shahryarbaig\/techlio.co\/wp-content\/mu-plugins",
+                    "themes": "\/home\/shahryarbaig\/techlio.co\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "akismet\/akismet.php": {
+                "slug": "akismet\/akismet.php",
+                "name": "Akismet Anti-spam: Spam Protection",
+                "version": "5.3",
+                "pluginURI": "https:\/\/akismet.com\/",
+                "author": "Automattic - Anti-spam Team",
+                "authorURI": "https:\/\/automattic.com\/wordpress-plugins\/",
+                "description": "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam<\/strong>. Akismet Anti-spam keeps your site protected even while you sleep. To get started: activate the Akismet plugin and then go to your Akismet Settings page to set up your API key.",
+                "title": "Akismet Anti-spam: Spam Protection",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "all-in-one-wp-migration\/all-in-one-wp-migration.php": {
+                "slug": "all-in-one-wp-migration\/all-in-one-wp-migration.php",
+                "name": "All-in-One WP Migration",
+                "version": "6.77",
+                "pluginURI": "https:\/\/servmask.com\/",
+                "author": "ServMask",
+                "authorURI": "https:\/\/servmask.com\/",
+                "description": "Migration tool for all your blog data. Import or Export your blog content with a single click.",
+                "title": "All-in-One WP Migration",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "becustom\/becustom.php": {
+                "slug": "becustom\/becustom.php",
+                "name": "BeCustom",
+                "version": "1.0.5.2",
+                "pluginURI": "https:\/\/muffingroup.com\/betheme\/features\/be-custom\/",
+                "author": "Muffin Group",
+                "authorURI": "https:\/\/muffingroup.com",
+                "description": "Rebrand Be & WordPress Admin And Take Your Business To The Next Level. Be like PRO!",
+                "title": "BeCustom",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "mfn-header-builder\/mfn-header-builder.php": {
+                "slug": "mfn-header-builder\/mfn-header-builder.php",
+                "name": "BeTheme Header Builder",
+                "version": "1.0.7.3",
+                "pluginURI": "",
+                "author": "Muffin group",
+                "authorURI": "https:\/\/muffingroup.com",
+                "description": "Header Builder for BeTheme - The biggest WordPress Theme ever.",
+                "title": "BeTheme Header Builder",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "contact-form-7\/wp-contact-form-7.php": {
+                "slug": "contact-form-7\/wp-contact-form-7.php",
+                "name": "Contact Form 7",
+                "version": "5.6.4",
+                "pluginURI": "https:\/\/contactform7.com\/",
+                "author": "Takayuki Miyoshi",
+                "authorURI": "https:\/\/ideasilo.wordpress.com\/",
+                "description": "Just another contact form plugin. Simple but flexible.",
+                "title": "Contact Form 7",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "anti-spam\/contact-form-entries.php": {
+                "slug": "anti-spam\/contact-form-entries.php",
+                "name": "Contact Form Entries",
+                "version": "1.3.7",
+                "pluginURI": "https:\/\/www.crmperks.com\/plugins\/contact-form-plugins\/crm-perks-forms\/",
+                "author": "CRM Perks",
+                "authorURI": "https:\/\/www.crmperks.com",
+                "description": "Save form submissions to the database from <a href=\"https:\/\/wordpress.org\/plugins\/contact-form-7\/\">Contact Form 7<\/a>, <a href=\"https:\/\/wordpress.org\/plugins\/ninja-forms\/\">Ninja Forms<\/a>, <a href=\"https:\/\/elementor.com\/widgets\/form-widget\/\">Elementor Forms<\/a> and <a href=\"https:\/\/wordpress.org\/plugins\/wpforms-lite\/\">WP Forms<\/a>.",
+                "title": "Contact Form Entries",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.10.2",
+                "pluginURI": "https:\/\/duplicator.com\/",
+                "author": "Duplicator",
+                "authorURI": "https:\/\/duplicator.com\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "elementor\/elementor.php": {
+                "slug": "elementor\/elementor.php",
+                "name": "Elementor",
+                "version": "3.24.0",
+                "pluginURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash",
+                "author": "Elementor.com",
+                "authorURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash",
+                "description": "The Elementor Website Builder has it all: drag and drop page builder, pixel perfect design, mobile responsive editing, and more. Get started now!",
+                "title": "Elementor",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "force-regenerate-thumbnails\/force-regenerate-thumbnails.php": {
+                "slug": "force-regenerate-thumbnails\/force-regenerate-thumbnails.php",
+                "name": "Force Regenerate Thumbnails",
+                "version": "2.0.6",
+                "pluginURI": "http:\/\/pedroelsner.com\/2012\/08\/forcando-a-atualizacao-de-thumbnails-no-wordpress",
+                "author": "Pedro Elsner",
+                "authorURI": "http:\/\/www.pedroelsner.com\/",
+                "description": "Delete and REALLY force the regenerate thumbnail.",
+                "title": "Force Regenerate Thumbnails",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "hello.php": {
+                "slug": "hello.php",
+                "name": "Hello Dolly",
+                "version": "1.7.2",
+                "pluginURI": "http:\/\/wordpress.org\/plugins\/hello-dolly\/",
+                "author": "Matt Mullenweg",
+                "authorURI": "http:\/\/ma.tt\/",
+                "description": "This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation summed up in two words sung most famously by Louis Armstrong: Hello, Dolly. When activated you will randomly see a lyric from <cite>Hello, Dolly<\/cite> in the upper right of your admin screen on every page.",
+                "title": "Hello Dolly",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "leadin\/leadin.php": {
+                "slug": "leadin\/leadin.php",
+                "name": "HubSpot All-In-One Marketing - Forms, Popups, Live Chat",
+                "version": "11.1.40",
+                "pluginURI": "http:\/\/www.hubspot.com\/integrations\/wordpress",
+                "author": "HubSpot",
+                "authorURI": "http:\/\/hubspot.com\/products\/wordpress",
+                "description": "HubSpot\u2019s official WordPress plugin allows you to add forms, popups, and live chat to your website and integrate with the best WordPress CRM.",
+                "title": "HubSpot All-In-One Marketing - Forms, Popups, Live Chat",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "portfolio-filter-gallery\/portfolio-filter-gallery.php": {
+                "slug": "portfolio-filter-gallery\/portfolio-filter-gallery.php",
+                "name": "Portfolio Filter Gallery",
+                "version": "1.4.6",
+                "pluginURI": "http:\/\/awplife.com\/",
+                "author": "A WP Life",
+                "authorURI": "http:\/\/awplife.com\/",
+                "description": "Portfolio Filter Gallery For WordPress.",
+                "title": "Portfolio Filter Gallery",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "revslider\/revslider.php": {
+                "slug": "revslider\/revslider.php",
+                "name": "Slider Revolution",
+                "version": "6.6.3",
+                "pluginURI": "https:\/\/www.sliderrevolution.com\/",
+                "author": "ThemePunch",
+                "authorURI": "https:\/\/themepunch.com\/",
+                "description": "Slider Revolution - More than just a WordPress Slider",
+                "title": "Slider Revolution",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woocommerce\/woocommerce.php": {
+                "slug": "woocommerce\/woocommerce.php",
+                "name": "WooCommerce",
+                "version": "9.2.3",
+                "pluginURI": "https:\/\/woocommerce.com\/",
+                "author": "Automattic",
+                "authorURI": "https:\/\/woocommerce.com",
+                "description": "An ecommerce toolkit that helps you sell anything. Beautifully.",
+                "title": "WooCommerce",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-security-audit-log\/wp-security-audit-log.php": {
+                "slug": "wp-security-audit-log\/wp-security-audit-log.php",
+                "name": "WP Activity Log",
+                "version": "4.4.2.1",
+                "pluginURI": "https:\/\/wpactivitylog.com\/",
+                "author": "WP White Security",
+                "authorURI": "https:\/\/www.wpwhitesecurity.com\/",
+                "description": "Identify WordPress security issues before they become a problem. Keep track of everything happening on your WordPress, including users activity. Similar to Linux Syslog, WP Activity Log generates an activity log with a record of everything that happens on your WordPress websites.",
+                "title": "WP Activity Log",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "js_composer\/js_composer.php": {
+                "slug": "js_composer\/js_composer.php",
+                "name": "WPBakery Page Builder",
+                "version": "6.9.0",
+                "pluginURI": "http:\/\/wpbakery.com",
+                "author": "Michael M - WPBakery.com",
+                "authorURI": "http:\/\/wpbakery.com",
+                "description": "Drag and drop page builder for WordPress. Take full control over your WordPress site, build any layout you can imagine \u2013 no programming knowledge required.",
+                "title": "WPBakery Page Builder",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-fastest-cache\/wpFastestCache.php": {
+                "slug": "wp-fastest-cache\/wpFastestCache.php",
+                "name": "WP Fastest Cache",
+                "version": "1.0.7",
+                "pluginURI": "http:\/\/wordpress.org\/plugins\/wp-fastest-cache\/",
+                "author": "Emre Vona",
+                "authorURI": "http:\/\/tr.linkedin.com\/in\/emrevona",
+                "description": "The simplest and fastest WP Cache system",
+                "title": "WP Fastest Cache",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-file-manager\/file_folder_manager.php": {
+                "slug": "wp-file-manager\/file_folder_manager.php",
+                "name": "WP File Manager",
+                "version": "7.2.9",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/wp-file-manager",
+                "author": "mndpsingh287",
+                "authorURI": "https:\/\/profiles.wordpress.org\/mndpsingh287",
+                "description": "Manage your WP files.",
+                "title": "WP File Manager",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-job-openings\/wp-job-openings.php": {
+                "slug": "wp-job-openings\/wp-job-openings.php",
+                "name": "WP Job Openings",
+                "version": "3.4.6",
+                "pluginURI": "https:\/\/wpjobopenings.com\/",
+                "author": "AWSM Innovations",
+                "authorURI": "https:\/\/awsm.in\/",
+                "description": "Super simple Job Listing plugin to manage Job Openings and Applicants on your WordPress site.",
+                "title": "WP Job Openings",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-lightbox-2\/wp-lightbox-2.php": {
+                "slug": "wp-lightbox-2\/wp-lightbox-2.php",
+                "name": "WP Lightbox 2",
+                "version": "3.0.6.5",
+                "pluginURI": "http:\/\/wpdevart.com\/wordpress-lightbox-plugin",
+                "author": "Syed Balkhi",
+                "authorURI": "http:\/\/syedbalkhi.com",
+                "description": "WP Lightbox 2 is awesome tool for adding responsive lightbox (overlay) effect for images and also create lightbox for photo albums\/galleries on your WordPress blog. WordPress Lightbox is one of the most useful plugins for your website.",
+                "title": "WP Lightbox 2",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicate-post\/duplicate-post.php": {
+                "slug": "duplicate-post\/duplicate-post.php",
+                "name": "Yoast Duplicate Post",
+                "version": "4.5",
+                "pluginURI": "https:\/\/yoast.com\/wordpress\/plugins\/duplicate-post\/",
+                "author": "Enrico Battocchi & Team Yoast",
+                "authorURI": "https:\/\/yoast.com",
+                "description": "The go-to tool for cloning posts and pages, including the powerful Rewrite & Republish feature.",
+                "title": "Yoast Duplicate Post",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            }
+        },
+        "themes": {
+            "betheme-child": {
+                "slug": "betheme-child",
+                "themeName": "BeTheme Child",
+                "version": "1.0",
+                "themeURI": "http:\/\/[Enter%20the%20URL%20of%20your%20child%20theme's%20website%20or%20leave%20it%20blank]",
+                "parentTheme": "betheme",
+                "template": "betheme",
+                "stylesheet": "betheme-child",
+                "description": "A child theme of BeTheme.",
+                "author": "Techlio",
+                "authorURI": "https:\/\/techlio.co\/",
+                "tags": [],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            },
+            "betheme": {
+                "slug": "betheme",
+                "themeName": "Betheme",
+                "version": "26.5.0.4",
+                "themeURI": "https:\/\/themes.muffingroup.com\/betheme\/",
+                "parentTheme": false,
+                "template": "betheme",
+                "stylesheet": "betheme",
+                "description": "The biggest WordPress Theme ever",
+                "author": "Muffin group",
+                "authorURI": "https:\/\/muffingroup.com\/",
+                "tags": [],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "twentytwentyfour": {
+                "slug": "twentytwentyfour",
+                "themeName": "Twenty Twenty-Four",
+                "version": "1.0",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentyfour\/",
+                "parentTheme": false,
+                "template": "twentytwentyfour",
+                "stylesheet": "twentytwentyfour",
+                "description": "Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": true
+            },
+            "twentytwentythree": {
+                "slug": "twentytwentythree",
+                "themeName": "Twenty Twenty-Three",
+                "version": "1.0",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentythree",
+                "parentTheme": false,
+                "template": "twentytwentythree",
+                "stylesheet": "twentytwentythree",
+                "description": "Twenty Twenty-Three is designed to take advantage of the new design tools introduced in WordPress 6.1. With a clean, blank base as a starting point, this default theme includes ten diverse style variations created by members of the WordPress community. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "twentytwentytwo": {
+                "slug": "twentytwentytwo",
+                "themeName": "Twenty Twenty-Two",
+                "version": "1.6",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentytwo\/",
+                "parentTheme": false,
+                "template": "twentytwentytwo",
+                "stylesheet": "twentytwentytwo",
+                "description": "Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme\u2019s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Site Editor features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you\u2019re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "style-variations",
+                    "wide-blocks",
+                    "block-styles",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            }
+        }
+    },
+    "defaultStorageId": -1,
+    "components": [
+        "package_component_db",
+        "package_component_core",
+        "package_component_plugins",
+        "package_component_themes",
+        "package_component_uploads",
+        "package_component_other"
+    ],
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": "Techlio PVT"
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "20240916_techliopvt_da1bf4528bcf73c05146_20240916132245_installer-backup.php",
+    "package_name": "20240916_techliopvt_da1bf4528bcf73c05146_20240916132245_archive.zip",
+    "package_hash": "da1bf45-16132245",
+    "package_notes": ""
+}
